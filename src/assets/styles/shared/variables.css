@@ -1,0 +1,6 @@
+:root {
+    /* Color */
+    --light-grey-color: #f2f2f2;
+    --body-background-color: var(--light-grey-color);
+    --cell-color: #1d1d1d;
+}

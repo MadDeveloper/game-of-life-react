@@ -1,0 +1,23 @@
+.grid-line {
+    display: flex;
+}
+
+.iteration-counter {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.end-message {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: var(--cell-color);
+    border-radius: 4px;
+    padding: 5px 10px;
+    color: #fff;
+}

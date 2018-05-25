@@ -1,0 +1,12 @@
+.cell {
+    width: 100%;
+    display: flex;
+    border: 1px solid #ECECEC;
+    background-color: transparent;
+    transition: background-color 600ms;
+    will-change: background-color;
+}
+
+.cell.alive {
+    background-color: var(--cell-color);
+}
